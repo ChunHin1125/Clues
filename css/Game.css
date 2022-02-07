@@ -24,7 +24,7 @@ body{
   background-color: #000000;
 }
 
-h1{
+#Intro{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,7 +55,13 @@ h2{
   background-color: #5b0a91;
 }
 
+.random{
+  color: white;
+}
 
+#link{
+  color: #000000;
+}
 
  li a {
   display: block;
