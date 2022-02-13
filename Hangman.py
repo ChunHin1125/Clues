@@ -16,7 +16,7 @@ f.close()
 
 already_guess = []
 
-print(words_list[index])
+# print(words_list[index])
 
 print("Your word is: ", end='')
 
