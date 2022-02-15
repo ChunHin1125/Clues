@@ -34,21 +34,22 @@ body{
   color: white;
 }
 
-h2{
+#description{
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-80%);
+  -webkit-transform: translateX(-50%) translateY(-80%);
+  transform: translateX(-50%) translateY(-80%);
   color: white;
   text-align: center;
 }
 
 #my_pic{
-  top: 0%;
-  left: 50%;
-  transform: translateX(140%) translateY(0%);
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translateX(-10%) translateY(5%);
 }
 
 .bg-primary{
@@ -78,6 +79,24 @@ li a:hover{
   color: #5b0a91
 }
 
+@media only screen and (max-width: 1000px) {
+  #my_pic{
+      display: none;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  #my_pic{
+      display: none;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .footer{
+      display: none;
+  }
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -103,12 +122,20 @@ nav-link.active{
   background-color: #1e0330;
 }
 
-/*#name{
-  float:left;
-  display: block;
-  color: yellow;
-  text-align: center;
-  padding: 30px 30px;
-  text-decoration: none;
-  font-size: 30px;
-} */
+#duck{
+  position: relative;
+  left: 30%;
+  transform: translateX(0%) translateY(0%);
+}
+
+@media only screen and (max-width: 1000px) {
+  #duck{
+      display: none;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  #duck{
+      display: none;
+  }
+}
