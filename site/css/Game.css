@@ -139,3 +139,7 @@ nav-link.active{
       display: none;
   }
 }
+
+.password{
+  color: black;
+}
